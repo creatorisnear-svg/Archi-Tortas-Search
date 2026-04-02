@@ -195,7 +195,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-red-100">
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-red-700 flex items-center justify-center text-white font-black text-sm leading-none border-2 border-green-700">TA</div>
+            <img src="/logo.jpg" alt="Tortas Archi's Logo" className="w-11 h-11 rounded-full object-cover border-2 border-green-700 shadow" />
             <div>
               <span className="font-black text-red-700 text-lg leading-none block">TORTAS</span>
               <span className="font-black text-green-700 text-lg leading-none block">ARCHI'S</span>
@@ -402,10 +402,7 @@ export default function Home() {
                     <div className="flex-1 h-1.5 bg-green-700 rounded-full" />
                     {/* Logo badge */}
                     <div className="flex flex-col items-center">
-                      <div className="w-20 h-20 rounded-full border-4 border-green-700 bg-red-700 flex flex-col items-center justify-center shadow-lg">
-                        <span className="text-white text-[9px] font-bold uppercase tracking-wide">since</span>
-                        <span className="text-yellow-300 text-2xl font-black leading-none">1988</span>
-                      </div>
+                      <img src="/logo.jpg" alt="Tortas Archi's Logo" className="w-20 h-20 rounded-full object-cover border-4 border-green-700 shadow-lg" />
                     </div>
                     {/* Right green stripe */}
                     <div className="flex-1 h-1.5 bg-green-700 rounded-full" />
